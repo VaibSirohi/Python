@@ -1,0 +1,10 @@
+start = int(input("Enter a starting number:"))
+end = int(input("Enter a ending number:"))
+for num in range(start, end):
+    if num %2 == 0:
+        print("{} is Even number".format(num))
+    else:
+        print("{} is Odd number".format(num))
+        
+        
+        
