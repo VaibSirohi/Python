@@ -1,0 +1,9 @@
+def swap(nList):
+    temp=nList[0]
+    nList[0]=nList[-1]
+    nList[-1]=temp
+    return nList
+    
+nList = [5,2,3,4,1]
+
+print(swap(nList))
